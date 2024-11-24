@@ -1,0 +1,6 @@
+[{
+  "context": "Editor",
+  "bindings": {
+    // "cmd-l":"language_selector::Toggle"
+  }
+}]

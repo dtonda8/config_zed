@@ -1,0 +1,95 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "inline_completions": {
+  },
+  "tab_bar": {
+    "show": true
+  },
+  // "vim_mode": false,
+  "show_inline_completions": false,
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "theme": {
+    "mode": "system",
+    "light": "Github Light",
+    "dark": "Zedokai Darker (Filter Spectrum)"
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false
+  },
+  "restore_on_startup": "last_workspace",
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 250
+    }
+  },
+  "indent_guides": {
+    "enabled": true
+  },
+  "buffer_line_height": {
+    "custom": 1.4
+  },
+  "gutter": {
+    "folds": true,
+    // Whether to show line numbers in the gutter.
+    "line_numbers": true,
+    // Whether to show code action buttons in the gutter.
+    "code_actions": true,
+    // Whether to show runnables buttons in the gutter.
+    "runnables": true
+    // Whether to show fold buttons in the gutter.
+  },
+  "scrollbar": {
+    "git_diff": true,
+    "diagnostics": false
+  },
+  "outline_panel": {
+    "git_status": true
+  },
+  "git": {
+    "git_gutter": "tracked_files",
+    "inline_blame": {
+      "enabled": false
+    }
+  },
+  "current_line_highlight": "none",
+  "telemetry": {
+    "diagnostics": false
+  },
+  "languages": {
+    "Python": {
+      // "show_inline_completions": false,
+      // "enable_language_server": false,
+      "extend_comment_on_newline": false,
+      // "hard_tabs": true,
+      "tab_size": 4
+    },
+    "C": {
+      "show_inline_completions": false,
+      "enable_language_server": false,
+      "extend_comment_on_newline": false,
+      // "hard_tabs": true,
+      "tab_size": 4
+    },
+    "Plain Text": {
+      "show_wrap_guides": false,
+      "extend_comment_on_newline": false
+    },
+    "Markdown": {
+      // "preferred_line_length": 100,
+      // "soft_wrap": "preferred_line_length"
+    },
+    "Java": {
+      "extend_comment_on_newline": false,
+      "enable_language_server": false
+    }
+  }
+}
